@@ -1,0 +1,44 @@
+.Name {
+    width: 60%;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    display: inline;
+    box-sizing: border-box;
+}
+
+.name_submit {
+    align-items: center;
+}
+
+.submit {
+    width: 20%;
+    margin: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid gainsboro;
+    padding: 7px 12px;
+    display: inline;
+}
+
+.Post {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid ;
+    resize: vertical;   
+    overflow: auto;
+    min-height: 50px;
+    display: inline;
+    border-color: gainsboro;
+}
+
+
+.submit:hover:not([disabled]) {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.submit:disabled {
+    opacity: 70%;
+}
