@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Tic Tac Toe</h1>
+    <div id="game_info">
+      <h2>
+        Score: X: <span id="x_score"></span>, O: <span id="o_score"></span>
+      </h2>
+      <h2>
+        Its your turn, <span class="display_player" id="display_player"></span>.
+      </h2>
+      <h2><span class="winner" id="winner"></span></h2>
+      <h3>Game Timer: <span id="game_time"></span></h3>
+      <h3>Move Timer: <span id="move_time"></span></h3>
+      <button type="button" class="ai" onclick="ai()">AI</button>
+      <button type="button" class="pvp" onclick="pvp()">2 Players</button>
+    <div class="game_board">
+      <div class="row">
+        <div class="one" id="1"><span class="xo"></span></div>
+        <div class="two" id="2"><span class="xo"></span></div>
+        <div class="three" id="3"><span class="xo"></span></div>
+      </div>
+      <div class="row">
+        <div class="four" id="4"><span class="xo"></span></div>
+        <div class="five" id="5"><span class="xo"></span></div>
+        <div class="six" id="6"><span class="xo"></span></div>
+      </div>
+      <div class="row">
+        <div class="seven" id="7"><span class="xo"></span></div>
+        <div class="eight" id="8"><span class="xo"></span></div>
+        <div class="nine" id="9"><span class="xo"></span></div>
+      </div>
+    </div>
+
+    <button class="new_game" onclick="newGame()">New Game</button>
+    <button class="reset" onclick="reset()">Reset</button>
+  </body>
+  <script src="main.js"></script>
+</html>
+
+

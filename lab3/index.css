@@ -1,0 +1,204 @@
+/* Feel free to edit CSS of body if you'd like. We provide you the light gray background color and font family in the body styling */
+/* Lab 1 done by Andre Amante and Jasmine Lau */
+@font-face {
+  font-family: 'Chirp', sans-serif;
+  src: url(sansation_light.woff);
+}
+
+body {
+  font-family: "Chirp",Helvetica,Arial,sans-serif;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#wrapper {
+  max-width: 1190px;
+  margin: 56px auto;
+  display: flex;
+}
+
+nav {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  top: 0; 
+  position: fixed;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  margin: 10px;
+  padding-left: 10px;
+}
+
+nav li:hover{
+  color: #4AB3F4;
+  text-decoration: underline;
+  text-underline-offset: 1em;
+  text-decoration-thickness: 3px;
+}
+
+nav img {
+  position: fixed;
+  left: 50%;
+  width: 40px;
+}
+
+.search {
+  display: flex;
+  width: 690px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+#searchBar {
+  width: 400px;
+}
+
+#tweet-button {
+  position: fixed;
+  right: 0%;
+  background-color: #4AB3F4;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+#profile {
+  width: 290px;
+}
+
+#content {
+  margin: 5px;
+}
+
+#follow {
+  width: 300px;
+}
+
+.content {
+  display: inline-block;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+}
+
+.tweet {
+  display: flex;
+  border-bottom: 1px solid #e6ecf0;
+  min-height: 51px;
+}
+
+.tweet-content{
+  margin-top: 10px;
+}
+
+#stats-wrap {
+  display: flex;
+  padding: 5px;
+}
+
+.stats-text {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 33%;
+}
+
+.labels {
+  color: gray;
+  font-weight: bold;
+}
+
+.numbers {
+  color: #4AB3F4;
+  font-weight: bold;
+}
+
+@media (max-width:1200px) {
+  .content-right {
+    display: none;
+  }
+}
+
+.header {
+  display: flex;
+}
+
+.left-side {
+  width: 290px;
+  background-color: white;
+}
+
+.banner {
+  border: 40px solid black;
+  z-index: 1;
+}
+
+.user-img{
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+}
+
+#profilep {
+  width: 72px;
+  height: 70px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 35px;
+  position: relative;
+  top: -25px;
+  left: 20px;
+  z-index: 2;
+}
+
+#profile{
+  position: relative;
+  background-color: white;
+  top: -35px;
+  left: 84px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 50px;
+}
+
+.right-side {
+  width: 290px;
+  background-color: white;
+  padding: 10px;
+}
+
+.follow-button {
+  background-color: white;
+  color: #4AB3F4;
+  padding: 3px;
+  text-align: center;
+  border-radius: 30px;
+  border-color: #4AB3F4;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: bold;
+  width: 90px;
+}
+
+.follow-profile {
+  display: flex;
+
+}
+
+/* TODO: Create CSS for your Twitter Mockup */
