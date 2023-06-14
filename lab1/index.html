@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script
+      src="https://cdnjs.cloudflare .com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+      integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/chirp-2" rel="stylesheet" />
+  </head>
+  <body style="background-color: #e6ecf0">
+    <!-- TODO: Create HTML elements for Twitter mockup inside body -->
+    <!--  Lab 1 done by Andre Amante and Jasmine Lau  -->
+    <!-- Navbar -->
+    <nav class="header" style="color: gray" role="navigation">
+      <li><b>Home</b></li>
+      <li><b>Moments</b></li>
+      <li><b>Notifications</b></li>
+      <li><b>Messages</b></li>
+
+      <img src="./images/twitter-logo.png" alt="Twitter Logo" />
+
+      <li id="tweet-button">Tweet</li>
+    </nav>
+
+    <div id="wrapper">
+      <div id="content" role="user profile">
+        <div id="user">
+          <div class="left-side">
+            <div class="banner">
+              <img
+                src="./images/ratatouille-banner.png"
+                alt="ratatouille"
+                id="banner-img"
+                width="100%"
+              />
+            </div>
+            <div id="profilep">
+              <img src="./images/ratatouille.jpg" alt="Remy" class="user-img" />
+              <div id="profile">
+                <p>
+                  <a href="#center" style="color: black "
+                    ><u><b>Remy</b></u></a
+                  >
+                </p>
+                <p><span style="color: gray">@remy</span></p>
+              </div>
+            </div>
+            <div id="stats-wrap" role="user statistics">
+              <div class="stats-text">
+                <p class="labels">Tweets</p>
+                <p class="numbers">5049</p>
+              </div>
+              <div class="stats-text">
+                <p class="labels">Following</p>
+                <p class="numbers">324</p>
+              </div>
+              <div class="stats-text">
+                <p class="labels">Followers</p>
+                <p class="numbers">809</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="content">
+        <div class="center" style="background-color: white" role="tweets">
+          <div class="tweet">
+            <img
+              src="./images/ratatouille.jpg"
+              alt="Remy"
+              class="profile-img"
+            />
+            <div class="tweet-content">
+              <p><b>Remy </b><span style="color: gray">@remy Nov 19</span></p>
+              <p>
+                I'm taking this class called CS 110 and the TAs are all so
+                <b>cool</b>!
+              </p>
+            </div>
+          </div>
+          <div class="tweet">
+            <img
+              src="./images/ratatouille.jpg"
+              alt="Remy"
+              class="profile-img"
+            />
+            <div class="tweet-content">
+              <p><b>Remy </b><span style="color: gray">@remy Nov 19</span></p>
+              <p>
+                <span style="line-height: 1.5"></span>
+                It's 2007. You just got home from elementary school. Your mom
+                has pizza bagels in the oven. Ratatouille is in theaters. Life
+                is good
+              </p>
+            </div>
+          </div>
+          <div class="tweet">
+            <img
+              src="./images/ratatouille.jpg"
+              alt="Remy"
+              class="profile-img"
+            />
+            <div class="tweet-content">
+              <p><b>Remy </b><span style="color: gray">@remy Nov 19</span></p>
+              <p>Let's make some pasta!</p>
+            </div>
+          </div>
+          <div class="tweet">
+            <img
+              src="./images/ratatouille.jpg"
+              alt="Remy"
+              class="profile-img"
+            />
+            <div class="tweet-content">
+              <p><b>Remy </b><span style="color: gray">@remy Nov 19</span></p>
+              <p>Let's make some pasta!</p>
+            </div>
+          </div>
+          <div class="tweet">
+            <img
+              src="./images/ratatouille.jpg"
+              alt="Remy"
+              class="profile-img"
+            />
+            <div class="tweet-content">
+              <p><b>Remy </b><span style="color: gray">@remy Nov 19</span></p>
+              <p>Let's make some pasta!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-right" role="networking">
+        <div id="content">
+          <div class="right-side">
+            <p><b>Who to follow</b></p>
+            <div class="follow-profile">
+              <img
+                src="./images/linguini.png"
+                alt="Linguini"
+                class="profile-img"
+              />
+              <div>
+                <p>
+                  <b>Linguini </b><span style="color: gray">@linguini</span>
+                </p>
+                <p class="follow-button">Follow</p>
+              </div>
+            </div>
+            <div class="follow-profile">
+              <img
+                src="./images/ratatouille.jpg"
+                alt="Remy"
+                class="profile-img"
+              />
+              <div>
+                <p><b>CS110 TA </b><span style="color: gray">@cs</span></p>
+                <p class="follow-button">Follow</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
